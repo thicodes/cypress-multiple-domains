@@ -31,24 +31,3 @@ describe('Meus Dados', () => {
       });
   });
 });
-
-// cy.request('https://www.sanarsaude.com/login')
-//   .its('body')
-//   .then((body) => {});
-
-// cy.request('https://www.sanarsaude.com/login').then((response) => {
-//   // pull out the location redirect
-//   const loc = response.headers['Location'];
-
-//   // parse out the token from the url (assuming its in there)
-//   const token = parseOutMyToken(loc);
-
-//   // do something with the token that your web application expects
-//   // likely the same behavior as what your SSO does under the hood
-//   // assuming it handles query string tokens like this
-//   cy.visit('http://localhost:8080?token=' + token);
-
-//   // if you don't need to work with the token you can sometimes
-//   // visit the location header directly
-//   cy.visit(loc);
-// });
