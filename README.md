@@ -1,6 +1,6 @@
 # Cypress Using multiple domains
 
-- [x] Auth with CSRF to test pages 
+- [x] Auth with CSRF to test private pages 
 - [ ] Create public account to test on cypress.io
 
 <p align="center">
@@ -17,4 +17,9 @@ yarn install
 ### Run Tests
 ```
 yarn start
+```
+
+### Run tests and record on cypress.io
+```
+yarn record
 ```
