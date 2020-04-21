@@ -1,4 +1,5 @@
 # Cypress Using multiple domains
+https://dashboard.cypress.io/projects/mzakya/runs/1/test-results
 
 - [x] Auth with CSRF to test private pages 
 - [ ] Create public account to test on cypress.io
