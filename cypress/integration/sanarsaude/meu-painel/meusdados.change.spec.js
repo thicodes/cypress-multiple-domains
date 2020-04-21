@@ -18,7 +18,7 @@ describe('Meus Dados', () => {
     });
   });
 
-  it('Test', () => {
+  it('should see menu on private area', () => {
     cy.request('https://www.sanarsaude.com/login')
       .its('body')
       .then((body) => {
