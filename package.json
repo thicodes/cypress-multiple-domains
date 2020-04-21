@@ -1,0 +1,23 @@
+{
+  "name": "cypress-multiple-domains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thicodes/cypress-multiple-domains.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thicodes/cypress-multiple-domains/issues"
+  },
+  "homepage": "https://github.com/thicodes/cypress-multiple-domains#readme",
+  "dependencies": {
+    "cypress": "^4.4.1"
+  }
+}
