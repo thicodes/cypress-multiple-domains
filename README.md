@@ -1,3 +1,3 @@
 # cypress-multiple-domains
 
-![](https://recordit.co/Db9TcAYBBb)
+![](https://recordit.co/Db9TcAYBBb.gif)
