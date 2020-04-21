@@ -1,6 +1,8 @@
 # cypress-multiple-domains
 
-![](https://recordit.co/Db9TcAYBBb.gif)
+<p align="center">
+  <img src="https://recordit.co/Db9TcAYBBb.gif"/>
+</p>
 
 ## Getting Started
 
