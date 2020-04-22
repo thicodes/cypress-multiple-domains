@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cypress open",
+    "record": "cypress run --record --key 91a30aed-d38f-4f30-addc-1bce415acbcd",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
