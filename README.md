@@ -2,7 +2,7 @@
 https://dashboard.cypress.io/projects/mzakya/runs/1/test-results
 
 - [x] Auth with CSRF to test private pages 
-- [ ] Create public account to test on cypress.io
+- [x] Create public account to test on cypress.io
 
 <p align="center">
   <img src="https://recordit.co/Db9TcAYBBb.gif" width="600"/>
