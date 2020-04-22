@@ -10,4 +10,22 @@
 //
 //
 // -- This is a parent command --
-Cypress.Commands.add('authWithCSRF', (email, password) => {});
+
+const auth = {
+  email: 'thiago.leite@nad1.com.br',
+  password: 'cictj41j',
+};
+
+Cypress.Commands.add('authWithCSRF', (csrfToken) => {
+  cy.request({
+    method: 'POST',
+    url: 'https://www.sanarsaude.com/usuario/logar',
+    failOnStatusCode: false,
+    form: true,
+    body: {
+      login: auth.email,
+      senha: auth.password,
+      csrf_token: csrfToken,
+    },
+  });
+});
